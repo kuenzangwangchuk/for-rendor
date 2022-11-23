@@ -1,0 +1,217 @@
+@charset "utf-8";
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    padding:5px;
+    background: white;
+}
+
+/* header part */
+.header {
+    background-image: url("12.PNG");
+    background-repeat: no-repeat; 
+    width: auto;
+    height: 50vh;
+    background-size:cover ;
+}
+.header h1{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    font-size: 40px;
+    color: azure;
+    text-align:center; 
+    font-family: 'EB Garamond';
+}
+
+/* navigation bar */
+.nav a{
+    font-size: larger;
+    text-decoration: none;
+    float: right;
+    padding: 10px;
+    color: white;
+}
+
+/* top devision */
+.top img{
+    float: left;
+    padding: 10px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+.top h1{
+  font-family:'Lobster';
+    text-align: center;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.top h2{
+    text-align: center;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 60px;
+    font-family: 'Roboto';
+}
+.top p{
+    font-size:20px;
+    font-family: 'Pacifico';
+    text-align: right;
+    padding: 10px;
+    margin-left: 50px;
+    padding-right:170px ;
+    margin-top: 60px;
+}
+
+/* left devision */
+.left{
+    float: left;
+    width: 50%;
+}
+.left img{
+    float: left;
+    padding: 10px;
+    margin-left: 80px;
+}
+.left h2,h3{
+    text-align: center;
+    color:rgb(129, 109, 52);
+}
+.left p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lexend';
+}
+
+/* right devision */
+.right{
+    float: left;
+    width:50% ;
+} 
+.right img{
+    float: left;
+    padding: 10px;
+    margin-left: 80px;
+}
+.right h2{
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    color:rgb(129, 109, 52);
+}
+.right p{
+  text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+/* phone view */
+@media screen and (max-width: 600px) {
+   .nav a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: small;
+} 
+
+/* header div */
+  .header {
+    background-image: url("12.PNG");
+    width: auto;
+    height: 50vh;
+    background-repeat: no-repeat;
+  }
+  .header h1 {
+    font-size: 24px;
+  }
+
+  /* top div */
+  .top img{
+    float: left;
+    width: auto;
+    height: 45vh;
+    margin-left: 0px;
+  }
+  .top h1{
+    text-align: justify;
+    margin-bottom: 20px;
+    padding-left: 100px;
+    margin-top: 15px;
+    padding-top: 50px;
+  }
+  .top *h2{
+    text-align: justify;
+    margin-bottom: 20px;
+    padding-left: 100px;
+    margin-top: 0px;
+    padding-top: 5px;
+  }
+  .top p{
+    text-align: justify;
+    margin-bottom: 20px;
+    padding-left: 70px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-size: medium;
+    padding-right: 0px;
+  }
+
+  /* left div */
+  .left{
+    float: left;
+    width: 100%;
+  }
+ .left img{
+    float: left;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    width: 70vh;
+    height: 65vh;
+  }
+  .left h2{
+    text-align: justify;
+    color: rgb(156, 133, 57);
+    margin-left: 28%;
+  }  
+  .left h3{
+    text-align: justify;
+    color:rgb(129, 109, 52);
+    margin-left: 30%;
+    margin-top: 5px;
+  }
+  .left p{
+    text-align: center;
+    font-size: 16px;
+    margin-right: 12%;
+    margin-top: 5px;
+  }
+  
+  /* right div */
+  .right{
+    width: 100%;
+  }
+ .right img{
+    width: 60vh;
+    height: 80vh;
+    margin-left: 30px;
+  }
+ .right h2{
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+ .right p{
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left:10px;
+ }
+}
+
+
